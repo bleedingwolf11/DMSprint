@@ -10,9 +10,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SpringBootDockerMavenApplicationTests {
 
 	@Test
-	public String contextLoads() {
-	
-	return "Helo world";
+	public void contextLoads() {
+	System.out.print("hello");
 	}
 
 }
